@@ -1,0 +1,48 @@
+.exchanges-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.exchanges-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.exchange-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.exchange-details {
+    margin-top: 10px;
+}
+
+.exchange-details p {
+    margin: 8px 0;
+}
+
+.status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.status.pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status.accepted {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status.completed {
+    background-color: #cce5ff;
+    color: #004085;
+} 
